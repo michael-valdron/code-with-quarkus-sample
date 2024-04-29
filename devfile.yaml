@@ -17,7 +17,7 @@ metadata:
     alpha.dockerimage-port: 8081
 parent:
   id: java-quarkus
-  registryUrl: 'https://registry.devfile.io'
+  registryUrl: 'http://devfile-registry.apps.sandbox-m2.ll9k.p1.openshiftapps.com'
   version: 1.4.0
 components:
   - name: image-build
